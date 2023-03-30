@@ -1,0 +1,16 @@
+#1.Write a Python function to find the Max of three numbers.
+
+def max(n1,n2,n3):
+    if n1 > n2 :
+        if n1 > n3 :
+            return n1
+        else:
+            return n3
+    else:
+        return n2
+
+num1= int(input("Enter First number :"))
+num2 = int(input("Enter Second number :"))
+num3 = int(input("Enter Third number :"))
+
+print("max of ",num1,", ",num2," and ",num3," is ",max(num1,num2,num3))

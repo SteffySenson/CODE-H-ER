@@ -1,0 +1,112 @@
+PS D:\python\code(h)er>  d:; cd 'd:\python\code(h)er'; & 'D:\python\python.exe' 'c:\Users\DELL\.vscode\extensions\ms-python.python-2022.10.1\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher' '57500' '--' 'd:\python\code(h)er\hangman\main.py' 
+Let's play Hangman!
+
+                   ^-------
+                   |      |
+                   |
+                   |
+                   |               O     -Hi Dude! Help me find the word
+                   |              /|\
+                   +---------     / \
+
+______
+
+
+6  letter word
+
+ Guess a letter or word: e
+E is not in the word.
+
+                   ^-------
+                   |      |
+                   |      O      Oops!
+                   |
+                   |
+                   |
+                   +---------
+
+______
+
+
+6  letter word
+
+ Guess a letter or word: l
+L is not in the word.
+
+                   ^-------
+                   |      |
+                   |      O
+                   |      |     Keep going!
+                   |      |
+                   |
+                   +---------
+
+______
+
+
+6  letter word
+
+ Guess a letter or word: i
+I is not in the word.
+
+                   ^-------
+                   |      |
+                   |      O
+                   |     \|    You've got 3 more chances left!
+                   |      |
+                   |
+                   +---------
+
+______
+
+
+6  letter word
+
+ Guess a letter or word: a
+A is not in the word.
+
+                   --------
+                   |      |
+                   |      O
+                   |     \|/   omg! 2 more chance.
+                   |      |
+                   |
+                   +---------
+
+______
+
+
+6  letter word
+
+ Guess a letter or word: g
+G is not in the word.
+
+                   --------
+                   |      |
+                   |      O
+                   |     \|/    Last chance man!
+                   |      |
+                   |     /
+                   +---------
+
+______
+
+
+6  letter word
+
+ Guess a letter or word: w
+W is not in the word.
+
+                   --------
+                   |      |
+                   |     *_*
+                   |     \|/         GAME OVER!
+                   |      |
+                   |     / \
+                   +---------
+
+______
+
+
+Sorry, you ran out of tries. The word was PROTON. Maybe next time!
+Play Again? (Y/N)

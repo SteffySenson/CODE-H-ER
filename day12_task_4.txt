@@ -1,0 +1,14 @@
+#4.Write a Python function to check whether a string is a palindrome or not
+
+def reverse(s):
+    str = ""
+    for i in s:
+        str = i + str
+    return str
+
+s = input("Enter a string: ")
+
+if s == reverse(s):
+    print(s," is palindrome.")
+else:
+    print(s," is not palindrome")
